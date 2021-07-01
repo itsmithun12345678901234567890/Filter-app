@@ -1,0 +1,27 @@
+h3
+{
+    font-size:25px !important;
+    animation-name: Tag ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+
+.btn-success:hover{
+    background-color:red;
+}
+
+canvas:hover {
+    animation-name: Color;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Color {
+    from {box-shadow: 1px 1px 40px red};
+    to {box-shadow: yellow};
+}
+
+@keyframes Tag{
+    from {box-shadow: 1px 1px 40px blue};
+    to {box-shadow: purple};
+}
